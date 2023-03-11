@@ -1,0 +1,23 @@
+{
+  "name": "hue-smash",
+  "version": "1.0.0",
+  "description": "A simple swap color to smash hyper casual game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "hyper",
+    "casual",
+    "2d"
+  ],
+  "author": "evangel c. Iheukwumere",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
