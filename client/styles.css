@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Silkscreen";
+}
+
+.game-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#game-area {
+  background-color: black;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.game-title-text {
+  background: linear-gradient(to right, red, yellow, green, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  animation: blink 2s ease-in-out infinite;
+}
+
+#color-indicator {
+  background: linear-gradient(to right, red, green, blue, yellow);
+  height: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 30px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#score-text {
+  position: absolute;
+  color: coral;
+  font-size: 20px;
+  top: 70px;
+  left: 360px;
+}
+
+/* Animation keyframes */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
