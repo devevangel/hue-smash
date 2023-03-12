@@ -104,6 +104,7 @@ function spawnFallingBlock() {
   spawnedBlocks.push(fallingBlock);
 }
 
+// Move spawned block
 function moveFallingBlock() {
   spawnedBlocks.forEach(function (block, index) {
     block.y += block.speed;
@@ -120,19 +121,26 @@ function moveFallingBlock() {
           ++score;
           updateScoring(score);
         } else {
-          spawnedBlocks = [];
-          score = 0;
-          updateScoring(score);
+          resetGame();
         }
       }
     }
   });
 }
 
+// Update score value
 function updateScoring(score) {
   scoreUI.textContent = `score: ${score}`;
 }
 
+// Reset game state
+function resetGame() {
+  spawnedBlocks = [];
+  score = 0;
+  updateScoring(score);
+}
+
+// Detect collision
 function onCollision(box1, box2) {
   // get the coordinates and dimensions of both boxes
   var box1Left = box1.x;
