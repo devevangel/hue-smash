@@ -48,7 +48,13 @@ body {
   color: coral;
   font-size: 20px;
   top: 70px;
-  left: 360px;
+  left: 500px;
+}
+
+#pause-play-button {
+  position: absolute;
+  top: 70px;
+  right: 500px;
 }
 
 /* Animation keyframes */

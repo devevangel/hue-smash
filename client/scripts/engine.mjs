@@ -2,6 +2,7 @@
 const colorSlider = document.querySelector("#color-slider");
 const colorIndicator = document.querySelector("#color-indicator");
 const scoreUI = document.querySelector("#score-text");
+const pausePlayButton = document.querySelector("#pause-play-button");
 
 // Canvas and context
 let gameArea;
@@ -54,6 +55,7 @@ function update() {
   context.clearRect(0, 0, gameAreaDimensions.width, gameAreaDimensions.height);
 
   createPlayer();
+
   moveFallingBlock();
 
   // Event handlers
