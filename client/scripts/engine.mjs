@@ -145,15 +145,15 @@ function resetGame() {
 // Detect collision
 function onCollision(box1, box2) {
   // get the coordinates and dimensions of both boxes
-  var box1Left = box1.x;
-  var box1Right = box1.x + box1.width;
-  var box1Top = box1.y;
-  var box1Bottom = box1.y + box1.height;
+  let box1Left = box1.x;
+  let box1Right = box1.x + box1.width;
+  let box1Top = box1.y;
+  let box1Bottom = box1.y + box1.height;
 
-  var box2Left = box2.x;
-  var box2Right = box2.x + box2.width;
-  var box2Top = box2.y;
-  var box2Bottom = box2.y + box2.height;
+  let box2Left = box2.x;
+  let box2Right = box2.x + box2.width;
+  let box2Top = box2.y;
+  let box2Bottom = box2.y + box2.height;
 
   // check if the boxes overlap on both the x and y axis
   if (
