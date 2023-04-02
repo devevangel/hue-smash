@@ -1,43 +1,55 @@
-# hue-smash
+hue-smash
+This project (game) is designed to improve the programming and problem-solving skills of its creators by using JavaScript to create a simple, yet fun game. It is perfect for those who are interested in learning JavaScript or want to improve their programming skills.
 
-This project (game) aims to improve the programming and problem solving skills of it's creators. Below are the proposed features of the the game.
+Features
+Create falling block object - A block that falls from the top of the screen that the player must avoid.
 
-**Features**
+Create player object - The player character that moves horizontally along the bottom of the screen.
 
-- Create falling block object ✔️
+Change player color based on slider input - The player's color changes according to the input of a slider.
 
-- Create player object ✔️
+Collision detection - If the falling block collides with the player object, the game ends.
 
-- Change player color based on slider input ✔️
+Moving boxes towards player - The falling block moves towards the player object, increasing in speed as the game progresses.
 
-- Collision detection ✔️
+Scoring system - The player scores one point for each second they survive. The score is displayed on the screen.
 
-- Moving boxes towards player ✔️
+Game sound - The game has sound effects that enhance the player's gaming experience.
 
-- Scoring system ✔️
+Game home screen - The game has a home screen that allows the player to start the game.
 
-- Game sound
+Pause game play - The player can pause the game at any time by pressing a designated button.
 
-- Game home screen
+Resume game play - The player can resume the game after pausing it by pressing a designated button.
 
-- Pause game play 🤔
+High score - The game saves the highest score achieved by the player.
 
-- Resume game play 🤔
+Saving in-game score and high score - The player's in-game score and high score are saved to allow for future game sessions.
 
-- High score
+Leader board - The game features a leader board to showcase the highest scores achieved by the players.
 
-- Saving in game score and highscore
+Credits page - The credits page displays the author, co-authors, and lecturers who contributed to the game.
 
-- Leader board
+Multiplayer using sockets - The game can be played in multiplayer mode, allowing for collaborative gameplay.
 
-- Credits page should show the author and co authors, as well as our lecturers
+Levels - The game has different levels of difficulty to cater to players of different skill levels.
 
-- Multiplayer using sockets
+Storyline development - The game has a storyline that unfolds as the player progresses through the levels.
 
-- Levels
+Particle effects - The game features particle effects that enhance the player's gaming experience.
 
-- Story line development
+Difficulty - The game has adjustable difficulty levels, allowing for a customized gaming experience.
 
-- Particle effects
+How to Use
+Clone the repository to your local machine.
 
-- Difficulty
+Open the index.html file in your web browser.
+
+Use the arrow keys to move the player object horizontally along the bottom of the screen.
+
+Avoid the falling block object to survive and score points.
+
+Enjoy the game!
+
+Conclusion
+Hue-smash is a simple, yet challenging game that aims to improve the programming and problem-solving skills of its creators. It provides a fun and engaging way to learn JavaScript and can be added as a potential project on your resume. With its adjustable difficulty levels and multiplayer mode, the game is perfect for gamers of all levels. Enjoy!
